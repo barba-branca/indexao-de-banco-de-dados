@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indexação em Banco de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Indexação em Banco de Dados</h1>
+            <p>Entenda os principais conceitos de índices e suas variações</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#indexacao">Indexação</a></li>
+            <li><a href="#conceito-indices">Conceito de Índices</a></li>
+            <li><a href="#b-tree">B-tree</a></li>
+            <li><a href="#hash">Hash</a></li>
+            <li><a href="#bitmap">Bitmap</a></li>
+            <li><a href="#alunos">Alunos</a></li>
+        </ul>
+    </nav>
+
+    <section id="indexacao" class="section">
+        <div class="container">
+            <h2>O que é Indexação em Banco de Dados?</h2>
+            <p>A indexação é uma técnica usada em bancos de dados para melhorar a eficiência das operações de busca. Um índice age como um mapa que ajuda a localizar dados sem precisar pesquisar por todas as entradas da tabela.</p>
+        </div>
+    </section>
+
+    <section id="conceito-indices" class="section">
+        <div class="container">
+            <h2>Conceito de Índices</h2>
+            <p>Índices são estruturas de dados que permitem o acesso mais rápido aos registros de uma tabela. Existem diferentes tipos de índices, cada um adequado para diferentes tipos de consultas.</p>
+        </div>
+    </section>
+
+    <section id="b-tree" class="section">
+        <div class="container">
+            <h2>B-tree</h2>
+            <p>O B-tree (árvore-B) é o tipo de índice mais comum em bancos de dados relacionais. Ele organiza os dados de forma hierárquica, permitindo a busca rápida, inserção e remoção de elementos.</p>
+        </div>
+    </section>
+
+    <section id="hash" class="section">
+        <div class="container">
+            <h2>Hash</h2>
+            <p>Índices de hash são baseados em funções de hash, que convertem valores em uma posição específica de memória. Eles são altamente eficientes para consultas de igualdade.</p>
+        </div>
+    </section>
+
+    <section id="bitmap" class="section">
+        <div class="container">
+            <h2>Bitmap</h2>
+            <p>O índice de bitmap é utilizado para colunas com poucos valores distintos (baixa cardinalidade), como colunas booleanas ou de status. Ele armazena os dados como bits, otimizando o espaço e tempo de busca.</p>
+        </div>
+    </section>
+
+    <section id="alunos"class="section">
+        <div class="container">
+            <h2>Alunos</h2>
+            <p>Kauê Martins Moraes Neves</p>
+            <p>Guilherme Sousa Noleto</p>
+            <p>Rafael Fernandes Da Silva</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 - Indexação em Banco de Dados</p>
+        </div>
+    </footer>
+
+</body>
+</html>
